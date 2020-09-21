@@ -1,0 +1,72 @@
+1 Задание.
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main() {
+	int a, b,S,P;
+	cin >> a >> b;
+	S = a * b;
+	P = (a + b) * 2;
+	cout << "S=" << S << " P=" << P;
+
+}
+
+
+2 Задание.
+#include <iostream>
+#include <stdio.h>
+#define PI 3.14
+using namespace std;
+int main() {
+	float L,d;
+	cin >> d;
+	L=PI * d;
+	cout << "L=" << L;
+
+}
+
+
+3 Задание.
+#include <iostream>
+#include <stdio.h>
+#include <locale.h>
+using namespace std;
+int main() {
+	setlocale(LC_ALL, "Russian");	
+	int a, b;
+	cin >> a >> b;
+	cout << "Среднее арифметическое=" << (a+b)/2;
+
+}
+
+
+4 Задание.
+#include <iostream>
+#include <stdio.h>
+#include <locale.h>
+using namespace std;
+int main() {
+	setlocale(LC_ALL, "Russian");	
+	int a, b,a2,b2;
+	cin >> a >> b;
+	a2 = a * a;
+	b2 = b * b;
+	cout << "Сумма=" << a2+b2 << " Разность=" << a2-b2 << " Произведение=" << a2*b2 << " Частность=" << a2/b2;
+
+}
+
+
+5 Задание.
+#include <iostream>
+#include <stdio.h>
+#include <locale.h>
+using namespace std;
+int main() {
+	setlocale(LC_ALL, "Russian");	
+	int a, b;
+	cin >> a >> b;
+	cout << "Сумма=" << abs(a)+abs(b) << " Разность=" << abs(a)-abs(b) << " Произведение=" << abs(a)*abs(b) << " Частность=" << abs(a)/abs(b);
+
+}
+
+
