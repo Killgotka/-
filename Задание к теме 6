@@ -15,3 +15,91 @@ int main() {
 
 
 Задание 2.
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main() {
+	int a, b, c, e;
+	cin >> a >> b >> c;
+	e=a;
+	a = b;
+	b = c;
+	c = e;
+	cout << a << " " << b << " " << c;
+
+}
+
+
+Задание 3.
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main() {
+	int a, b, c, e,r;
+	cin >> a >> b >> c;
+	e = a;
+	a = c;
+	c = b;
+	b = e;
+	cout << a << " " << b << " " << c;
+}
+
+
+Задание 4.
+#include <iostream>
+#include <stdio.h>
+#include <cmath>
+using namespace std;
+int funct(int x) {
+	return 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
+}
+int main() {
+	int x, y;
+	cin >> x;
+	y = funct(x);
+	cout << y;
+	return y;
+}
+
+
+Задание 5.
+#include <iostream>
+#include <stdio.h>
+#include <cmath>
+using namespace std;
+int funct(int x) {
+	int y = x - 3;
+	return 4*pow((y),6)-7*pow((y),3) + 2;
+}
+int main() {
+	int x, y;
+	cin >> x;
+	y = funct(x);
+	cout << y;
+	return y;
+}
+
+
+Задание 6.
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main() {
+	int A, b;
+	cin >> A;
+	b = A * A;
+	cout << b * b * b * b;
+}
+
+
+Задание 7.
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main() {
+	int A, b;
+	cin >> A;
+	b = A * A * A;
+	cout << b * b * b * b * b;
+}
+
