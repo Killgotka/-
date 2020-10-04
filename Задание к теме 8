@@ -1,0 +1,49 @@
+1 Задание
+
+#include <iostream>
+using namespace std;
+int main() {
+	int b,kb;
+	cin >> b;
+	kb = b / 1024;
+	if (b % 1024 > 0) {
+		kb++;
+	}
+	cout << kb;
+}
+2 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int a,b;
+	cin >> a >> b;
+	cout << a/b;
+}
+3 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int a,b;
+	cin >> a >> b;
+	cout << a%b;
+}
+4 Задание 
+#include <iostream>
+using namespace std;
+int main() {
+	int a,b,n;
+	cin >> a;
+	b = a / 10;
+	n = a % 10;
+	cout << n << b;
+}
+5 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int a,b,n;
+	cin >> a;
+	b = a / 100;
+	n = a % 100;
+	cout << n << b;
+}
