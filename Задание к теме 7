@@ -1,0 +1,62 @@
+1 Задание
+
+#include <iostream>
+using namespace std;
+const double PI = 3.141592653589793;
+int main() {
+	float a, b;
+	cin >> a;
+	b =  PI / 180;
+	a = b * a;
+	cout << a;
+}
+2 Задание
+#include <iostream>
+using namespace std;
+const double PI = 3.141592653589793;
+int main() {
+	float a, b;
+	cin >> a;
+	b =  180/PI;
+	a = b * a;
+	cout << a;
+}
+3 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	float X,A,Y,a1,aY;
+	cin >> X >> A >> Y;
+	a1 = A / X;
+	aY = Y * a1;
+	cout << a1 << " " << aY;
+}
+4 Задание 
+#include <iostream>
+using namespace std;
+int main() {
+	float V1,V2,S,T,S2;
+	cin >> V1 >> V2 >> S >> T;
+	S2 = (V1 * T) + (V2 * T) + S;
+	cout << S2;
+}
+5 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	float A,x,B;
+	cin >> A >> B;
+	x = -B / A;
+	cout << x;
+}
+6 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	float A1,x,B1,A2,B2,y,C1,C2;
+	cin >> A1 >> B1 >> C1 >> A2 >> B2 >> C2;
+	y = (A1 * C2 - A2 * C1) / (A1*B2-A2*B1);
+	x = (C1 - B1 * y) / A1;
+	cout << x << " " << y;
+}
+
