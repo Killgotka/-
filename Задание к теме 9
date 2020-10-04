@@ -1,0 +1,58 @@
+1 Задание
+
+#include <iostream>
+using namespace std;
+int main() {
+	int n,a;
+	cin >> n;
+	a = n % 60;
+	cout << a;
+}
+2 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int k,n;
+	cin >> k;
+	n=k%7;
+	cout << n;
+}
+3 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int k,n,c;
+	cin >> k >> n;
+	c = (k + n - 1) % 7;
+	if (c == 0) {
+		c = 7;
+	}
+	cout << c;
+}
+4 Задание 
+#include <iostream>
+using namespace std;
+int main() {
+	int a,b,c,q1,w1,q2,w2,s,d;
+	cin >> a >> b >> c;
+	q1 = a / c;
+	w1 = b / c;
+	s = q1 * w1;
+	q2 = a % c;
+	w2 = b % c;
+	d = q2 * b + w2 * a - 1;
+	cout << s << " " << d;
+}
+5 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int a,s;
+	cin >> a;
+	s = 0;
+	s = (a / 100);
+	if (a % 100 > 0) {
+		s++;
+	}
+	cout << s;
+}
