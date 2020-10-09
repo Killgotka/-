@@ -1,0 +1,113 @@
+1 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int  a,b;
+	cin >> a >> b;
+	if (a==b){
+		cout << 0 << " " << 0;
+	}
+	else if (a > b) {
+		b = a;
+		cout << a << " " << b;
+	}else {
+		a = b;
+		cout << a << " " << b;
+	}
+}
+2 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int  a,b,c,e,r,t;
+	cin >> a >> b >> c;
+	e = a + b;
+	r = a + c;
+	t = b + c;
+	int	q[] = { e,r,t };
+	int max = q[0];
+	for (int i = 1; i < 3; i++) {
+		if (q[i] > max) max = q[i];
+	}
+	cout << max;
+}
+3 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int  a, b, c, e, r;
+	cin >> a >> b >> c;
+	e = abs(a - b);
+	r = abs(a - c);
+ 	if (e < r) {
+		cout << b << " " << e;
+	}else {
+		cout << c << " " << r;
+	}
+}
+4 Задание
+#include <iostream>
+using namespace std;
+int main() {
+	int  x,y;
+	cin >> x >> y;
+	if (x > 0 && y > 0) {
+		cout << "1 fourth"; //fourth-четверть
+	}else if (x > 0 && y < 0) {
+		cout << "4 fourth";
+	}else if (x < 0 && y < 0) {
+		cout << "3 fourth";
+	}else if (x < 0 && y > 0) {
+		cout << "2 fourth";
+	}
+}
+5 Задания
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int  a;
+	cin >> a;
+	if (a > 0) {
+		if (a % 2 == 0) {
+			cout << "Положительное четное число";
+		}else {
+			cout << "Положительное нечетное число";
+		}
+	}else if (a < 0) {
+		if (a % 2 == 0) {
+			cout << "Отрицательное четное число";
+		}
+		else {
+			cout << "Отрицательное нечетное число";
+		}
+	}else {
+		cout << "Нулевое число";
+	}
+}
+6 Задания
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int  a;
+	cin >> a;
+	if (a % 2 == 0) {
+		if (a / 10 == 0) {
+			cout << "четное однозначное число";
+		}else if (a / 100 == 0) {
+			cout << "четное двухзначное число";
+		}else {
+			cout << "четное трехзначное число";
+		}
+	}
+	else {
+		if (a / 10 == 0) {
+			cout << "нечетное однозначное число";
+		}else if (a / 100 == 0) {
+			cout << "нечетное двухзначное число";
+		}else {
+			cout << "нечетное трехзначное число";
+		}
+	}
+	}
